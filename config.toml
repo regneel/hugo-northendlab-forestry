@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Hugo Northendlab Forestry starter"
-theme = "github.com/themefisher/northendlab-hugo"
+theme = "northendlab"
 paginate = "5"
 summaryLength = "10"
 disqusShortname = "" # get your shortname form here : https://disqus.com
@@ -14,7 +14,7 @@ description = "This is meta description"
 google_tag_manager = "" # your id
 google_analitycs_id = "" # your id
 contact_form_action = "#" # contact form works with : https://formspree.io
-copyright = "&copy; 2020 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "&copy; 2021 [Crow and Raven](#) All Rights Reserved"
 
 [params.preloader]
 enable = true
@@ -25,18 +25,18 @@ enable = true
 
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
-image = "images/banner/illustration.svg"
+title = "We've got all your extermination needs covered"
+image = "images/banner/cover2.svg"
 
 [params.cta]
 enable = true
 image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+title = "View our work"
+description = "We've done corporate, residential, and everything in between"
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+label = "Take A Look"
+link = "/portfolio"
 
 [[params.social]]
 icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
@@ -57,8 +57,8 @@ name = "Contact"
 weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "tools"
+URL = "portfolio"
+name = "Portfolio"
 weight = 2
 
 [[menu.footer]]
@@ -67,8 +67,8 @@ name = "Contact"
 weight = 1
 
 [[menu.footer]]
-URL = "tools"
-name = "tools"
+URL = "portfolio"
+name = "Portfolio"
 weight = 2
 
 [outputs]

@@ -1,0 +1,26 @@
+---
+label: Portfolio
+hide_body: true
+fields:
+    - type: field_group_list
+      name: portfolio
+      label: portfolio
+      fields:
+          - type: text
+            name: title
+            label: title
+          - type: field_group_list
+            name: job
+            label: job
+            fields:
+                - type: text
+                  name: name
+                  label: name
+                - type: file
+                  name: image
+                  label: image
+                - type: text
+                  name: link
+                  label: link
+pages:
+    - data/portfolio.yml
